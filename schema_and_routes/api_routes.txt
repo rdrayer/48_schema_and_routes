@@ -1,0 +1,16 @@
+api routes
+user: 
+    POST /users - register a new user
+    GET /users/:username - get a user's profile
+    PATCH /users/:username - update user's profile
+
+activities:
+    GET /activities - list all activities
+    POST /activities - create new activity
+    GET /activities/:id - get details about activity
+    PATCH /activities/:id - update activity
+    DELETE /activities/:id - delete activity
+
+auth:
+    POST /login - auth a user, return token
+    POST /logout - logout a user, remove token
